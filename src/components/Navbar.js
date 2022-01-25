@@ -5,8 +5,6 @@ export default function Navbar() {
   const data = useStaticQuery(graphql`  
     query SiteData {
       site {
-        host
-        port
         siteMetadata {
           title
         }
